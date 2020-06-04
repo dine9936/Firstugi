@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="0dp"
+    app:cardUseCompatPadding="false"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="195dp"
+        android:src="@drawable/pica"
+        android:scaleType="fitXY"
+        android:layout_marginBottom="2dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoSizeTextType="uniform"
+        android:text="Life can be overwhelming, exhilarating, and stunning at the same time, even for a child. Parents usually think that children have it easy, as they do not have to pay taxes or worry about where their next meal is going to come from. However, they have their problems too, even if they seem small to you. So at times like these, quotes for kids about life can come in handy for a parent."
+        android:padding="5dp"/>
+</LinearLayout>
+</androidx.cardview.widget.CardView>

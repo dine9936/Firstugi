@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginBottom="5dp">
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="4"
+        >
+        <TextView
+            android:paddingRight="20dp"
+            android:id="@+id/text_sbjct"
+            android:textAlignment="center"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Subject"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+        <TextView
+            android:paddingRight="20dp"
+            android:id="@+id/text_ssnlone"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sessional I"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+        <TextView
+            android:paddingRight="20dp"
+
+            android:id="@+id/text_ssnltwo"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sessional II"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+        <TextView
+            android:paddingRight="20dp"
+
+            android:id="@+id/text_ssnlthree"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sessional III"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

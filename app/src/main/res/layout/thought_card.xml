@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:layout_marginBottom="2dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="0dp"
+    app:cardUseCompatPadding="false"
+    android:layout_height="100dp">
+    <LinearLayout
+        android:layout_gravity="center"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:autoSizeMaxTextSize="15dp"
+            android:autoSizeMinTextSize="12dp"
+            android:autoSizeTextType="uniform"
+            android:id="@+id/text_thought"
+            android:textAlignment="center"
+            android:textSize="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="“I slept and I dreamed that life is all joy. I woke and I saw that life is all service. I served and I saw that service is joy.”"/>
+        <TextView
+            android:id="@+id/writer"
+            android:textColor="@color/colorPrimary"
+            android:layout_margin="2dp"
+            android:gravity="end"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="– Kahlil Gibran"
+            android:layout_gravity="left"/>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

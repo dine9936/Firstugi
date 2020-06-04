@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:id="@+id/notification"
+    android:title="Notification"
+    android:icon="@drawable/ic_notifications_blue_24dp"
+    app:showAsAction="always"/>
+<item
+    android:id="@+id/notification1"
+    android:title="Notification"
+    android:icon="@drawable/ic_notifications_blue_24dp"
+    app:showAsAction="never"/>
+<item
+    android:id="@+id/notification2"
+    android:title="Notification"
+    android:icon="@drawable/ic_notifications_blue_24dp"
+    app:showAsAction="never"/>
+<item
+    android:id="@+id/notification3"
+    android:title="Notification"
+    android:icon="@drawable/ic_notifications_blue_24dp"
+    app:showAsAction="never"/>
+<item
+    android:id="@+id/notification4"
+    android:title="Notification"
+    android:icon="@drawable/ic_notifications_blue_24dp"
+    app:showAsAction="never"/>
+</menu>

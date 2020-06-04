@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar_home"
+    android:minHeight="?attr/actionBarSize"
+    android:background="#ffffff"
+    android:gravity="right"
+    app:popupTheme="@style/Widget.AppCompat.Toolbar">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            app:border_color="#ffffff"
+            app:border_width="2dp"
+            tools:srcCompat="@tools:sample/avatars[6]" />
+</androidx.appcompat.widget.Toolbar>

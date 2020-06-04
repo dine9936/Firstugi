@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_margin="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/teacher_image"
+        android:layout_width="70dp"
+        android:elevation="4dp"
+        android:background="@null"
+        app:border_color="@color/colorPrimary"
+        app:border_width="2dp"
+        android:layout_height="70dp"
+        android:src="@drawable/din"
+        />
+    <androidx.cardview.widget.CardView
+        app:cardCornerRadius="4dp"
+        app:cardBackgroundColor="#acacac"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_width="match_parent"
+        app:cardUseCompatPadding="false"
+        app:cardElevation="2dp"
+        android:layout_gravity="bottom"
+        android:layout_height="110dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/teacher_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mr. Prasant Soni"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginLeft="30dp"/>
+            <TextView
+                android:id="@+id/teacher_info"
+                android:padding="5dp"
+                android:layout_marginLeft="30dp"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="hsdfghdjbjgbgrbbfdcvbkc mfkjd"/>
+            <LinearLayout
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:weightSum="2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+               <Button
+                   android:id="@+id/download"
+                   android:background="@drawable/quot_back"
+                   android:layout_margin="5dp"
+                   android:text="Notes Download"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:layout_weight="1"/>
+               <Button
+                   android:background="@drawable/quot_back"
+                   android:layout_margin="5dp"
+                   android:text="Ask Question"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"/>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</FrameLayout>
